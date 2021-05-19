@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free">
+    <meta name="keywords" content="VFL, Venice Freestyle Lab, Venice Freestyle, Venice, Freestyle">
+    <meta name="author" content="F.I.V.E. SRL.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venice Freestyle Lab</title>
+    <link rel="stylesheet" href="../assets/css/main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="project">
+        <div class="fullscreen">
+          <video id="video" class="video-fullscreen">
+            <source src="short fede.mp4" type="video/mp4">
+            Your browser does not support videos.
+          </video>
+          <!-- <button id="play_button" class="play">Pause</button> -->
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    var playButton = document.getElementById("play_button");
+    var video = document.getElementById("video");
+    playButton.addEventListener("click", function() {
+      if (video.paused == true) {
+        video.play();
+        playButton.innerHTML = "Pause";
+      } else {
+        video.pause();
+        playButton.innerHTML = "Play";
+      };
+    });
+    </script>
+  </body>
+</html>

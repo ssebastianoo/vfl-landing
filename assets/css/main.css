@@ -1,0 +1,93 @@
+body {
+  background: url("../media/sito 1st creator Romanello.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  font-family: 'Cabin', sans-serif;
+  overflow-x: hidden;
+}
+
+.right {
+  float: right;
+  margin-top: 6%;
+  margin-right: 100px;
+  align-items: center;
+  justify-content: center;
+  background: RGBA(0,0,0,0.8);
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+  transition-duration: .3s;
+}
+
+.text {
+  color: white;
+  padding: 12px 25px;
+}
+
+.text a {
+  color: white;
+  text-decoration: none;
+  transition-duration: .3s;
+}
+
+.text a:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 16.5px;
+}
+
+.left {
+  display: flex;
+  float: left;
+  margin-top: 10px;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreen {
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  position: absolute;
+  text-align: center;
+}
+
+.video {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.video-fullscreen {
+  position: relative;
+  width: 1200px;
+  box-shadow: 5px 20px 20px black;
+}
+
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.fullvideo {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+  background: white;
+  border-radius: 10px;
+  padding: 5px 5px;
+  transition-duration: .3s;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.fullvideo:hover {
+  color: white;
+  background: black;
+  box-shadow: 10px 10px white;
+}
