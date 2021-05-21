@@ -3,22 +3,68 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
-  font-family: 'Cabin', sans-serif;
-  overflow-x: hidden;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.project {
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 40%;
+  box-shadow: 0 -5px 5px -5px #333;
 }
 
 .video {
   width: 100%;
 }
 
-.container {
+.source {
+  border-top-right-radius: 12px;
+}
+
+.card-text {
+  text-align: left;
+  display: flex;
+  padding: 10px 16px;
+  background: RGBA(255,255,255,0.8);
+  transform: translateY(-64px);
+}
+
+.name, .value {
+  margin: 0;
+  padding: 0;
+}
+
+.card-text .section:not(.first) {
+  margin-left: 20px;
+}
+
+.fullvideo-link {
+  text-decoration: none;
+  color: black;
   background: white;
-  width: 100%;
-  padding: 2px 16px;
+  padding: 3px 3px;
+  border-radius: 5px;
+  box-shadow: 2px 2px black;
+  transition-duration: .3s;
+  font-size: 20px;
+  letter-spacing: 19.3px;
+}
+
+.fullvideo-link:hover {
+  box-shadow: 4px 4px black;
+}
+
+.fullvideo-button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transform: translateY(-1px);
 }
