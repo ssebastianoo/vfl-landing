@@ -3,22 +3,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
-  font-family: 'Roboto Mono', monospace;
-}
-
-.project {
-  margin-top: 100px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
   width: 40%;
-  box-shadow: 0 -5px 5px -5px #333;
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
 }
 
 .video {
@@ -29,17 +21,18 @@ body {
   border-top-right-radius: 12px;
 }
 
-.card-text {
-  text-align: left;
-  display: flex;
-  padding: 10px 16px;
-  background: RGBA(255,255,255,0.8);
-  transform: translateY(-64px);
-}
-
 .name, .value {
   margin: 0;
   padding: 0;
+}
+
+.card-text {
+  color: #e1b12c;
+  letter-spacing: 3px;
+}
+
+.card-text a {
+  color: black;
 }
 
 .card-text .section:not(.first) {
@@ -52,7 +45,6 @@ body {
   background: white;
   padding: 3px 3px;
   border-radius: 5px;
-  box-shadow: 2px 2px black;
   transition-duration: .3s;
   font-size: 20px;
   letter-spacing: 19.3px;
