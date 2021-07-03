@@ -29,7 +29,8 @@ html {
 	left: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333
+  background-color: #333;
+  z-index: 9999;
 }
 
 li.barItem {
@@ -60,6 +61,7 @@ a.barItem {
 .intro {
   margin-top: 200px;
   text-align: center;
+  height: 3343434%;
 }
 
 .logo {
@@ -120,6 +122,7 @@ a.barItem {
   font-size: 100px;
   transform: translateY(45px);
   cursor: pointer;
+  text-shadow: -5px 0px white;
 }
 
 .arrow-right {
@@ -127,4 +130,40 @@ a.barItem {
   font-size: 100px;
   transform: translateY(45px);
   cursor: pointer;
+  text-shadow: 5px 0px white;
+}
+
+.blog {
+  margin-top: 200px;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article img {
+  width: 600px;
+}
+
+.body {
+  width: 1000px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background: RGBA(255,255,255,0.5);
+}
+
+.text, .author, .title {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.author {
+  color: #a88d3f;
+  font-size: 110%;
+}
+
+.text a {
+  color: #a88d3f;
 }
