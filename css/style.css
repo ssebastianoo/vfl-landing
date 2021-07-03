@@ -1,11 +1,23 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background: url('../assets/background.jpg');
+  background: url('https://seba.gq/vfl-landing/assets/background.png');
   background-size: 100%;
+  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.notfound {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 200%;
+  color: black;
+  text-shadow: 5px 5px white;
 }
 
 .navBar {
