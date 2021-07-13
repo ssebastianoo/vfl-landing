@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://seba.gq/vfl-landing/assets/background.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.notfound {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 200%;
+  color: black;
+  text-shadow: 5px 5px white;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	left: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  z-index: 9999;
+}
+
+li.barItem {
+	float: left;
+}
+
+a.barItem {
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	font-size: 20px;
+	transition-duration: .2s;
+}
+
+.barItemActive, a.barItem:hover {
+  background-color: #a88d3f;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+	margin-top: 0px;
+}
+
+.container {
+  margin-top: 5%;
+  background: RGBA(0,0,0,0.9);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0px 30px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+.header h1 {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 250%;
+}
+
+.author, .content a {
+  color: #a88d3f;
+  text-decoration: none;
+}
+
+.content {
+  color: white;
+  margin-bottom: 2%;
+}
+
+.content img {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}

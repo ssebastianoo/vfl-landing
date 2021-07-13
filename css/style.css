@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background: url('https://seba.gq/vfl-landing/assets/background.jpg');
+  background-image: url('https://seba.gq/vfl-landing/assets/background.jpg');
+  background-attachment: fixed;
   background-size: 100%;
   overflow-x: hidden;
 }
@@ -134,7 +135,7 @@ a.barItem {
 }
 
 .blog {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .article {
