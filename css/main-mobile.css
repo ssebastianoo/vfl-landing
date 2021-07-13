@@ -60,39 +60,51 @@ a.barItem {
 	margin-top: 0px;
 }
 
-.container {
-  margin-top: 5%;
-  background: RGBA(0,0,0,0.9);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 0px 30px;
-  border-radius: 10px;
-  width: 50%;
-}
-
-.header {
+.intro {
+  margin-top: 100px;
   text-align: center;
+}
+
+.logo img {
+  width: 80%;
+}
+
+.intro iframe {
+  margin-top: 50px;
+  width: 350px;
+  height: 196.875px;
+}
+
+.parent, .article img {
+  display: none;
+}
+
+.blog {
+  margin-top: 50px;
+}
+
+.article {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.body {
+  background: RGBA(0,0,0,0.9);
+  padding: 2px 2px;
   color: white;
+  border-radius: 10px;
 }
 
-.header h1 {
-  font-family: 'Covered By Your Grace', cursive;
-  font-size: 250%;
+.text, .author, .title {
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-.author, .content a {
+.author {
   color: #a88d3f;
-  text-decoration: none;
+  font-size: 110%;
 }
 
-.content {
-  color: white;
-  margin-bottom: 2%;
-}
-
-.content img {
-  width: 100%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+.text a {
+  color: #a88d3f;
 }

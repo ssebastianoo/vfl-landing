@@ -2,7 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-image: url('https://seba.gq/vfl-landing/assets/background.jpg');
   background-attachment: fixed;
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow-x: hidden;
 }
 
@@ -60,15 +61,19 @@ a.barItem {
 }
 
 .intro {
-  margin-top: 200px;
+  margin-top: 180px;
   text-align: center;
-  height: 3343434%;
 }
 
 .logo {
   width: 100%;
   position: absolute;
   transform: translateX(-360px) translateY(-30px) rotate(-35deg);
+}
+
+.intro iframe {
+  width: 800px;
+  height: 450px;
 }
 
 .logo img {
@@ -152,7 +157,9 @@ a.barItem {
   width: 1000px;
   margin-left: 40px;
   margin-right: 40px;
-  background: RGBA(255,255,255,0.5);
+  background: RGBA(0,0,0,0.9);
+  color: white;
+  border-radius: 10px;
 }
 
 .text, .author, .title {
